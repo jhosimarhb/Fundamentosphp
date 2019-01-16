@@ -1,5 +1,6 @@
 <?php
-$bd = SQlite3('login.db');
+$contador=0;
+$bd = new SQLite3('login.db');
 $resultado= $bd->query("select * form login where usuario=".$_POST['usuario']."'AND password='".$_POST['password'].";");
 while ($fila = $resultado-> fetcharray()) {
 	# code...
