@@ -33,7 +33,7 @@ $famous_tech_people[] =[
 'name' => 'victor',
 'address' => 'santa  ',
 'availability' => true ,
-'email' => 'victor@ple'
+'email' => 'castillo@ple'
 ];
 
 $famous_tech_people[] =[
