@@ -10,19 +10,10 @@
 </head>
 <nav>
 	<ul>
-		
-		<i>
-			<a href="">Inicio</a>
-		</i>
-		<i>
-			<a href="">Nosotro</a>
-		</i>
-		<i>
-			<a href="">Servicio</a>
-		</i>
-		<i>
-			<a href="">Contacto</a>
-		</i>
+<i>	<a href="">Inicio</a></i>
+		<i><a href="">Nosotro</a></i>
+		<i><a href="">Servicio</a></i>
+		<i><a href="">Contacto</a></i>
 	</ul>
 </nav>
 <section>
