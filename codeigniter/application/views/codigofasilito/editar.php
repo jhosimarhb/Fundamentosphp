@@ -1,15 +1,16 @@
-<?= form_open("/codigofasilito/recibirdatos")?>
+<?= form_open("/codigofasilito/actualizar/".$id)?>
 <?php
 $nombre = array(
 'name' => 'nombre',
 'placeholder' => 'Escribe tu nombre',
+'value'=> $curso->result()[0]->nombreCurso
 
 );
 
 $videos = array(
 'name' => 'videos',
 'placeholder' => 'cantidad de videos',
-
+'value'=> $curso->result()[0]->videosCurso
 );
 
 ?>
@@ -24,7 +25,6 @@ $videos = array(
 <br>
 <?php echo form_submit('','subir')?>
 <?php echo form_close() ?>
-
 
 
 
