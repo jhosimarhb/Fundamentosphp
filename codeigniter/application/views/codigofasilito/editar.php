@@ -5,6 +5,7 @@ $nombre = array(
 'placeholder' => 'Escribe tu nombre',
 'value'=> $curso->result()[0]->nombreCurso
 
+
 );
 
 $videos = array(

@@ -21,6 +21,17 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$dato['string']= 'hola mundo';
-		$this->load->view('welcome_message',$dato);
+		$this->load->view('Pdf/formulario');
 		}
+		public function descargar(){
+	
+		//para que ponga la fecha en el nombre del documento
+	$hoy = date("dmyhis");
+	//$html es la que va a contener todo loque se va amandar al pdf
+	$html = $this->input->post('pdf');
+	$pdfFilePath = "cipdf_".$hoy.".pdf";
+	$this->load->library('M_pdf');
+	$this->m_pdf->pdf->WriteHTML($html);
+	$this->m_pdf->Output($pdfFilePath, "D");
+}
 }
