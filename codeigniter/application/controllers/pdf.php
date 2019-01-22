@@ -8,7 +8,7 @@ class Pdf extends CI_Controller {
 
 	}
 public function index(){
-	$this->load->view('Welcome/descargar');
+	$this->load->view('Welcome/descrgaar');
 }
 
 public function descargar(){
