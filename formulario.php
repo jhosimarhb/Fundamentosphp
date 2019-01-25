@@ -1,4 +1,4 @@
-<?php
+
 
 <form action="formulario_contactos_prosesos.php" method="post">
 

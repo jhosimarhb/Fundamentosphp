@@ -2,6 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
+function __construct(){
+	parent::__construct();
+	$this->load->helper('form');
+
+	}
 
 	/**
 	 * Index Page for this controller.
@@ -31,7 +36,7 @@ class Welcome extends CI_Controller {
 	         $html = $this->input->post('pdf');
 	         $pdfFilePath = "cipdf_".$hoy.".pdf";
 	         $this->load->library('M_pdf');
-	         $this->m_pdf->pdf->WriteText('<a>'.$html.'</a>');
+	         $this->m_pdf->pdf->WriteHTML($html);
 	         $this->m_pdf->Output($pdfFilePath, "D");
         }
 	             
