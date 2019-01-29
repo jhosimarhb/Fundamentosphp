@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$this->load->helper('url');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,17 +10,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>ALL PREMIUM CLOTHES</title>
-        <link rel="stylesheet" href="<?= base_url() ?>assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/bootstrap.min.css">
 
-        <link rel="stylesheet" href="<?= base_url() ?>assets/css/demo.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/demo.css">
 
-        
-        <link rel="stylesheet" href="<?= base_url() ?>assets/css/misestilos.css">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-
-        <!-- <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-        -->
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/misestilos.css">
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <script src="<?= base_url(); ?>assets/js/jquery-1.11.3.min.js"></script>
     </head>
     <body>

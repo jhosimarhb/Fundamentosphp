@@ -89,7 +89,7 @@ class Producto_modelo extends CI_Model
         }
     }
 
-    public function mostrar_datos $inicio = false, $cantidadregistro = false)
+    public function mostrar_datos ($inicio = FALSE, $cantidadregistro = FALSE)
     {
     $this->db->like("nombre_producto", $this->nombre_producto);
     if ($inicio !== false && $cantidadregistro !== false) {

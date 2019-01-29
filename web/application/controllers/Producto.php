@@ -27,7 +27,7 @@ class Producto extends CI_Controller{
 
 			$config =[
 				"upload_path"=> "./asset/images/uploads",
-				"allowed_types"=> "png|jpg";
+				"allowed_types"=> "png|jpg"
 			];
 			$this->load->library("upload", $config);
 

@@ -10,7 +10,7 @@ class Categoria_model extends CI_model
 	private $nombre_categoria;
 		
 		
-	function __construct(argument)
+	function __construct()
 	{
 		parent::__construct();
 

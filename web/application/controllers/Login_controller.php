@@ -1,16 +1,13 @@
 <?php 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/**
- * 
- */
 class Login_controller extends CI_Controller
 {
 	
 	function __construct()
 	{
 		parent::__construct();
-		$this->load->model('login_model')
+		$this->load->model('login_model');
 		
 	}
 
@@ -31,7 +28,7 @@ class Login_controller extends CI_Controller
 
             if($respuesta){
             	$datos=[
-            		"id" => $respuesta->id_usuario;
+            		"id" => $respuesta->id_usuario,
             		"name"=> $respuesta->nombre_usuario,
             		"login"=> TRUE
 
