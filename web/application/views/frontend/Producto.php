@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
             <span class="text-center">INGRESAR NUEVOS PRODUCTOS</span>
-            <form id="form-create-empleado" class="form-horizontal col-lg-12 col-md-12 col-xs-12" role="form" action="<?php base_url(); ?>producto/guardar_datosController" method="POST">
+            <form id="form-create-empleado" class="form-horizontal col-lg-12 col-md-12 col-xs-12" role="form" action="<?php echo base_url()?>producto/guardar_datosController" method="POST">
 
                 <div class="form-group">
                     <input id="nombre" type="text" name="nombre" class="form-control" placeholder="Nombre" required/>
@@ -107,7 +107,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <span class="text-center">ACTUALIZAR PRODUCTOS</span>
                 </div>
                 <div class="panel-body">
-                    <form id="form-actualizar" class="form-horizontal" action="<?php echo base_url(); ?>producto/actualizar_datos" method="post" role="form" style="padding:0 10px;">
+                    <form id="form-actualizar" class="form-horizontal" action="<?php echo base_url()?>producto/actualizar_datos" method="post" role="form" style="padding:0 10px;">
                         <div class="form-group">
                             <label>Nombres Producto:</label>
                             <input type="hidden" id="idsele" name="idsele" value="">

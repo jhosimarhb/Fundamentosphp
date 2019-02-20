@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- FORMULARIO --> 
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12">
-            <form id="form-create-categoria" class="form-horizontal col-lg-10" role="form" action="<?php base_url(); ?>categoria/guardar_datosController" method="POST">
+            <form id="form-create-categoria" class="form-horizontal col-lg-10" role="form" action="<?php echo base_url()?>categoria/guardar_datosController" method="POST">
                <span class="text-center">FORMULARIO INGRESO DE CATEGORIAS</span>
                 <div class="form-group">
                     <input id="nombre" type="text" name="nombre" class="form-control" placeholder="Nombre" required/>
@@ -79,7 +79,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="panel panel-danger">
                 <div class="panel-heading">Editar Categoria</div>
                 <div class="panel-body">
-                    <form id="form-actualizar" class="form-horizontal" action="<?php echo base_url(); ?>categoria/actualizar_datos" method="post" role="form" style="padding:0 10px;">
+                    <form id="form-actualizar" class="form-horizontal" action="<?php echo base_url()?>categoria/actualizar_datos" method="post" role="form" style="padding:0 10px;">
                         <div class="form-group">
                             <label>Nombre Categoria:</label>
                             <input type="hidden" id="idsele" name="idsele" value="">

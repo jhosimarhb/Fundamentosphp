@@ -153,7 +153,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <br>
             <div class="media col-md-3 col-md-offset-1 col-xs-12" style="color:#000000;">
 
-                <img class="center-block img-circle" style=" width: 42px; height: 42px; padding: 8px;  background: #FFC60A;" src="<?php base_url(); ?>assets/images/img/search.png">
+                <img class="center-block img-circle" style=" width: 42px; height: 42px; padding: 8px;  background: #FFC60A;" src="<?php echo base_url()?>assets/images/img/search.png">
                 <div class="media-body" style="padding: 2px;">
                     <h4 class="text-center envio">BUSCA TU PRODUCTO</h4>
                     <p> Busca por nombre del producto en específico o por las categorías.</p>
@@ -163,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="media col-md-3 col-md-offset-1 col-xs-12" style="color:#000000;">
 
-                <img class="center-block img-circle" style="width: 42px; height: 42px;  padding: 8px;  background: #FFC60A;" src="<?php base_url(); ?>assets/images/img/check-symbol.png">
+                <img class="center-block img-circle" style="width: 42px; height: 42px;  padding: 8px;  background: #FFC60A;" src="<?php echo base_url()?>assets/images/img/check-symbol.png">
                 <div class="media-body" style="padding: 2px;">
                     <h4 class="text-center envio">REVISA EL PRODUCTO</h4>
                     <p> Todos los productos cuentan con código, nombre, valor y descripción.</p>
@@ -172,7 +172,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="media col-md-3 col-md-offset-1 col-xs-12" style="color:#000000;">
 
-                <img class="center-block img-circle" style=" width: 42px; height: 42px;  padding: 8px;  background:#FFC60A;" src="<?php base_url(); ?>assets/images/img/export.png">
+                <img class="center-block img-circle" style=" width: 42px; height: 42px;  padding: 8px;  background:#FFC60A;" src="<?php echo base_url()?>assets/images/img/export.png">
                 <div class="media-body" style="padding: 2px;">
                     <h4 class="text-center envio">ENVÍA TU CONSULTA</h4>
                     <p> Comunícate con nosotros a través de nuestro correo o red social.</p>

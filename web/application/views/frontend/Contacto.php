@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<script src="<?= base_url(); ?>assets/js/form-scripts.js"></script>
+<script src="<?php echo base_url()?>assets/js/form-scripts.js"></script>
 <script>
     $("#contacto").addClass("activo");
     $("#inicio").removeClass("activo");
@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 que necesites responderemos tu mensaje antes posible.
             </div>
             <br>
-            <form role="form"  id="contactForm" method="POST" action="<?php echo base_url(); ?>Contacto/enviarCorreo">
+            <form role="form"  id="contactForm" method="POST" action="<?php echo base_url()?>Contacto/enviarCorreo">
                 <div class="form-group">
                     <label for="name"><span style="font-size: 15px">Nombre :</span></label>
                     <input type="text" class="form-control " id="nombre" name="nombre" required>

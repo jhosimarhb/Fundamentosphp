@@ -6,7 +6,7 @@
 </head>
 <body>
 <form =id='formulario'>
-	<div><input type="text" name="nombre" placeholder="nombre"></div>
+	<div><input type="text" name="nombre" placeholder="nombre" autocomplete="off"></div>
 	<div><input type="text" name="apellido" placeholder="apellido"></div>
 	<div><input type="text" name="email" placeholder="email"></div>
 	<div><input type="submit" name="Enviar"></div>
